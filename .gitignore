@@ -1,0 +1,51 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.log
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.ipynb~
+.notebook/
+*.out
+
+# ----------------------------
+# Environment / virtualenv
+# ----------------------------
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# ----------------------------
+# OS and editors
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# Project-specific
+# ----------------------------
+# Ignore large data or temporary output
+LOSC_files/temp/
+*.png
+*.pdf
+*.dat
+*.json
+*.zip
+*.tar.gz
